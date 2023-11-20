@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap"
+    rel="stylesheet">
+</head>
+
+<style>
+  .background {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+  }
+
+  .product-window {
+    width: 29%;
+    height: 40vh;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .image {
+    width: 400px;
+    height: 530px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prices {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .cartbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 50px;
+    background-color: rgb(18, 133, 76);
+    color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .cartbutton:hover {
+    background-color: green;
+  }
+
+  .uppertext {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .headline {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+  }
+
+  .flavortext {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(228, 12%, 48%);
+    margin-left: 30px;
+    margin-top: 22px;
+  }
+
+  .current {
+    font-size: 30px;
+    color: rgb(18, 133, 76);
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+  }
+
+  .previous {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', serif;
+    margin-left: 40px;
+    text-decoration: line-through;
+  }
+
+  .icon {
+    margin-right: 15px;
+  }
+</style>
+
+<body>
+
+
+
+  <div class="background">
+    <div class="product-window">
+
+      <img class="image" src="./images/image-product-desktop.jpg">
+      <div class="product-detail">
+        <div class="uppertext">P E R F U M E</div>
+
+        <div class="headline">Gabrielle <br>
+          Essence Eau<br>
+          De Parfum</div>
+
+        <div class="flavortext">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </div>
+        <div class="prices">
+          <div class="current">$149.99</div>
+          <div class="previous">$169.99</div>
+        </div>
+
+        <div class="cartbutton"><img class="icon" src="./images/icon-cart.svg">Add to Cart</div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>
